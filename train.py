@@ -39,7 +39,6 @@ import time
 X = normalize(X)
 y = normalize(y)
 
-
 model = Sequential()
 
 model.add(Dense(128, activation = 'relu'))
